@@ -92,7 +92,8 @@ nextflow run nf-core/rnaseq \
     --fasta <GENOME FASTA> \
     -profile <docker/singularity/.../institute>
 ```
-
+*markdown
+ >This example shows a minimal command to run the nf-core/rnaseq pipeline using default settings for reproducible RNA-seq analysis.
 For more details and further functionality, please refer to the [usage documentation](https://nf-co.re/rnaseq/usage) and the [parameter documentation](https://nf-co.re/rnaseq/parameters).
 
 ## Pipeline output
@@ -152,3 +153,4 @@ You can cite the `nf-core` publication as follows:
 > Philip Ewels, Alexander Peltzer, Sven Fillinger, Harshil Patel, Johannes Alneberg, Andreas Wilm, Maxime Ulysse Garcia, Paolo Di Tommaso & Sven Nahnsen.
 >
 > _Nat Biotechnol._ 2020 Feb 13. doi: [10.1038/s41587-020-0439-x](https://dx.doi.org/10.1038/s41587-020-0439-x).
+Improve README clarity for basic RNA-seq usage
